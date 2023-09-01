@@ -1,0 +1,67 @@
+/* Reset básico */
+body, h1, h2, h3, p, a, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #0B2447;
+    color: #333;
+}
+
+header {
+    background-color: #FFD411;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2{
+    color:#FFD411;
+    ;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.projeto-card {
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.projeto-card img {
+    width: 100%;
+    height: auto;
+}
+
+.projeto-card h3 {
+    margin-top: 15px;
+}
+
+.projeto-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .projeto-card, #contato {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
